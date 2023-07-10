@@ -6,7 +6,7 @@
 /* header style */
 
 .header{
-    background-color: rgba(214, 86, 114, 0.1);
+    background-color: rgb(244, 209, 217);
     display: flex;
     justify-content: center;
     gap: 100px;
@@ -86,4 +86,37 @@
     font-style: italic;
     text-decoration: underline;
     text-align: center;
+}
+
+/* offer section style */
+
+
+.offer-container{
+    display: contents; background-color: rgb(244, 209, 217);
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+    height: 55vh;
+}
+
+.details{
+    width: 400px;
+    padding: 20px;
+    text-align: center;
+}
+.details h2{
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.img{
+    width: 400px;
+    padding: 20px;
+}
+.img img{
+    height: 250px;
+}
+span{
+    color: red;
 }

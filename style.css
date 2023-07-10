@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* header style */
+
+.header{
+    background-color: rgba(214, 86, 114, 0.1);
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+    height: 75vh;
+}
+
+.header-text{
+    width: 400px;
+}
+
+.btn{
+    padding: 10px 25px;
+    border-radius: 5px;
+    background-color: rgb(116, 45, 45);
+    margin-top: 10px;
+    color: aliceblue;
+}
+
+
+.header-img{
+    width: 400px;
+    padding-bottom: 0px;
+}
+
+.image{
+    width: 350px;
+    height: 435px;
+    padding: 20px;
+    padding-bottom: 0px;
+}

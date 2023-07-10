@@ -92,7 +92,7 @@
 
 
 .offer-container{
-    display: contents; background-color: rgb(244, 209, 217);
+    background-color: rgb(244, 209, 217);
     display: flex;
     justify-content: center;
     gap: 100px;
@@ -119,4 +119,29 @@
 }
 span{
     color: red;
+}
+
+/* instagram style */
+.ista-titele{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    margin: 10px;
+    margin-top: 40px;
+}
+.insta-gallery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 30px;
+    
+}
+.insta-box{
+    height: 200px;
+    width: 200px;
+}
+.insta-img{
+    width: 200px;
+    height: 200px;
 }
